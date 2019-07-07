@@ -1,0 +1,2 @@
+set albumPath to the text returned of (display dialog "Input Khinsider album URL: " default answer "")
+do shell script ("java -jar /Users/zackamiton/Code/DownloadKhinsider/out/artifacts/DownloadKhinsider_jar/DownloadKhinsider.jar " & albumPath)
